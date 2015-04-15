@@ -1,0 +1,172 @@
+// Place all the styles related to the hogwarts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+ * {
+	font-family: 'Lora', serif;
+	color: #DB9D3E;
+ }
+
+#navy {
+background: url('background.jpg');
+opacity: 1;
+}
+
+#home {
+	margin-top: 51px;
+    width: 100%;
+    text-align: center;
+    height: 754px;
+    background: url('background.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#section2 {
+    width: 100%;
+    text-align: center;
+     height: 754px;
+    background: url('background2.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#home h1 {
+    font-size: 30px;
+    color: #DB9D3E;
+    text-align: center;
+    font-weight:bolder;
+
+}
+
+.col-md-4 {
+	color: #DB9D3E;
+	margin-top: 350px;
+	font-size: 1.5em;
+}
+
+.col-md-6 {
+	margin-top: 50px;
+}
+
+#ron_w {
+	border: 5px ridge #DB9D3E;
+	background: url('ron.jpg') no-repeat 0 0;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+	animation: ron 8s steps(55) infinite;
+	-webkit-animation: ron 8s steps(55) infinite;
+	-moz-animation: ron 8s steps(55) infinite;
+
+}
+
+@keyframes ron {
+	from{background-position:-500px 0;}
+	to{background-position:0 0;}
+	}
+
+@-webkit-keyframes ron {
+	from{background-position:-500px 0;}
+	to{background-position:0 0;}
+}
+
+#harry_p {
+	border: 5px ridge #DB9D3E;
+	background: url(HPCharacterSprite.jpg) 0 0 no-repeat;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+	animation: harry 8s steps(55) infinite;
+	-webkit-animation: harry 8s steps(55) infinite;
+	-moz-animation: harry 8s steps(55) infinite;
+
+}
+
+@keyframes harry {
+	from{background-position:-500px 0;}
+	to{background-position:0 0;}
+	}
+
+@-webkit-keyframes harry {
+	from{background-position:-500px 0;}
+	to{background-position:0 0;}
+}
+
+#her_g {
+	border: 5px ridge #DB9D3E;
+	background: url(her.jpg) 0 0 no-repeat;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+	animation: her 8s steps(55) infinite;
+	-webkit-animation: her 8s steps(55) infinite;
+	-moz-animation: her 8s steps(55) infinite;
+
+}
+
+@keyframes her {
+	from{background-position:-500px 0;}
+	to{background-position:0 0;}
+	}
+
+@-webkit-keyframes her {
+	from{background-position:-500px 0;}
+	to{background-position:0 0;}
+}
+
+.name {
+	font-size: 1.7em;
+	font-weight: bolder;
+}
+
+.house {
+	font-weight: bold;
+}
+
+.quote {
+	font-style: italic;
+	
+}
+
+#section3 {
+	background: url('background3.jpg');
+	width: 100%;
+    text-align: center;
+    height: 754px;
+    font-size: 1.2em;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#Gryffindor {
+	background: url('HogwartsHouses.png') no-repeat -14px -14px;
+	width: 183px;
+	height: 227px;
+}
+
+#Slytherin {
+	background: url('HogwartsHouses.png') no-repeat -203px -252px;
+	width: 179px;
+	height: 217px;
+}
+
+#Hufflepuff {
+	background: url('HogwartsHouses.png') no-repeat -15px -249px;
+	width: 183px;
+	height: 224px;
+}
+
+#Ravenclaw {
+	background: url('HogwartsHouses.png') no-repeat -200px -13px;
+	width: 182px;
+	height: 225px;
+}
